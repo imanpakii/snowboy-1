@@ -50,3 +50,14 @@ android {
     productFlavors {
     }
 }
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'ai.api:libai:1.4.8'
+    compile 'ai.api:sdk:2.0.5@aar'
+    // api.ai SDK dependencies
+    //compile 'com.android.support:appcompat-v7:25.2.1'
+    compile 'com.google.code.gson:gson:2.3'
+    compile 'commons-io:commons-io:2.4'
+}
