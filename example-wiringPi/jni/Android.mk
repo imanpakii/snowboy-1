@@ -1,10 +1,12 @@
 LOCAL_PATH := $(call my-dir)
-#NDK_PATH := /Android_SDK/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle
+NDK_PATH := ~/Android_SDK/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle
+#$(info $(LOCAL_PATH))
+
 include $(CLEAR_VARS)
 LOCAL_C_INCLUDES += \
     $(NDK_PATH)/platforms/android-21/arch-arm/usr/include \
     $(LOCAL_PATH)/wiringPi
-
+#$(info $(LOCAL_C_INCLUDES))
 LOCAL_MODULE    := wiringPi
 LOCAL_SRC_FILES := \
     wiringPi/wiringPi.c \

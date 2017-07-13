@@ -29,7 +29,7 @@
 #include <stdint.h>
 #include <fcntl.h>
 #include <sys/ioctl.h>
-#include <linux/spi/spidev.h>
+#include </Android_SDK/adt-bundle-mac-x86_64-20140702/sdk/ndk-bundle/platforms/android-21/arch-arm/usr/include/linux/spi/spidev.h>
 
 #include <wiringPi.h>
 #include <wiringPiI2C.h>
